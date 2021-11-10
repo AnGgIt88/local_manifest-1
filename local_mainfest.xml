@@ -5,6 +5,9 @@
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
 	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
 
+        <!-- Remove -->
+        <remove-project name="android_packages_resources_devicesettings" />
+
         <!-- Packages repos -->
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
