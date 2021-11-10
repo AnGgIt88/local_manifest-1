@@ -4,6 +4,10 @@
         <!-- Remote -->
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
 	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
+        <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-18.1" />
+
+        <!-- Packages repos -->
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="Finix_kernel-4.9-rosy" remote="Finix" revision="11" />
