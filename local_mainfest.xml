@@ -4,10 +4,10 @@
         <!-- Remote -->
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
 	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
+        <remote name="gg" fetch="https://github.com/AnggaR96s" />
 
         <!-- Remove -->
         <remove-project name="platform_vendor_aosp" />
-        <remove-project name="GengKapak-clang" />
 
         <!-- Packages repos -->
         <project path="vendor/aosp" name="platform_vendor_aosp" remote="NFS" revision="11.x" />
@@ -18,5 +18,6 @@
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="aosp-11" />
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="NFS" revision="gcc-master" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="NFS" revision="gcc-master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gg" revision="main" />
 
 </manifest>
