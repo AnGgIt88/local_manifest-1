@@ -4,6 +4,9 @@
         <!-- Remote -->
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
 	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
+	
+	<!-- Remove -->
+	<remove-project name="android_vendor_havoc" />
 
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="Finix_kernel-4.9-rosy" remote="Finix" revision="11" />
@@ -11,5 +14,6 @@
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="aosp-11" />
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="NFS" revision="gcc-master" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="NFS" revision="gcc-master" />
+        <project path="vendor/havoc" name="android_vendor_havoc" remote="Finix" revision="eleven" />
  
 </manifest>
