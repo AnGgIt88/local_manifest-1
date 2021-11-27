@@ -5,7 +5,7 @@
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
 	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
         <remote name="gg" fetch="https://github.com/AnggaR96s" />
-        <<remote name="lord" fetch="https://github.com/Pulkit077" />
+        <remote name="lord" fetch="https://github.com/Pulkit077" />
 
         <!-- Remove -->
         <remove-project name="platform_vendor_aosp" />
