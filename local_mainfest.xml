@@ -5,6 +5,7 @@
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
 	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
         <remote name="gg" fetch="https://github.com/AnggaR96s" />
+        <<remote name="lord" fetch="https://github.com/Pulkit077" />
 
         <!-- Remove -->
         <remove-project name="platform_vendor_aosp" />
@@ -16,7 +17,7 @@
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="Finix" revision="eleven" />
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="aex-11" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="aosp-11" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="NFS" revision="gcc-master" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="NFS" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="lord" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="lord" revision="gcc-master" />
 
 </manifest>
